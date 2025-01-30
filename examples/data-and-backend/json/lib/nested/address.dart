@@ -12,3 +12,4 @@ class Address {
       _$AddressFromJson(json);
   Map<String, dynamic> toJson() => _$AddressToJson(this);
 }
+import 'package:json_annotation/json_annotation.dart';
